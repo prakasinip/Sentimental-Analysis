@@ -13,11 +13,6 @@ import pandas as pd
 import numpy as np
 import nltk
 import io
-import unicodedata
-import numpy as np
-import re
-import string
-from numpy import linalg
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.tokenize import PunktSentenceTokenizer
@@ -34,4 +29,3 @@ sents = sent_tokenizer.tokenize(text)
 
 print(word_tokenize(text))
 print(sent_tokenize(text))
-
