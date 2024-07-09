@@ -1,7 +1,6 @@
 !pip install nltk
 !pip install numpy
 !pip install pandas
-!pip install matplotlib
 
 import nltk
 nltk.download('punkt')
@@ -12,7 +11,6 @@ nltk.download('punkt')
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import nltk
 import io
 import unicodedata
