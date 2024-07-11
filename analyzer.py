@@ -16,10 +16,7 @@ import matplotlib.pyplot as plt
 import nltk
 import io
 import unicodedata
-import numpy as np
-import re
-import string
-from numpy import linalg
+
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.tokenize import PunktSentenceTokenizer
