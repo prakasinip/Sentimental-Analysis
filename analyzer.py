@@ -33,3 +33,5 @@ sents = sent_tokenizer.tokenize(text)
 
 print(word_tokenize(text))
 print(sent_tokenize(text))
+
+porter_stemmer = PorterStemmer()
