@@ -8,3 +8,5 @@
 "I had high expectations, but it fell short."
 "Thanks for organizing this, it was a blast!"
 "Honestly, it was a waste of time."
+"This project requires further analysis."
+"Great job on the presentation!"
