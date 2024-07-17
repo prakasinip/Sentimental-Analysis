@@ -35,3 +35,5 @@ print(word_tokenize(text))
 print(sent_tokenize(text))
 
 porter_stemmer = PorterStemmer()
+
+nltk_tokens = nltk.word_tokenize(text)
