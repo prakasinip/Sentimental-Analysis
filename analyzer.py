@@ -37,3 +37,9 @@ print(sent_tokenize(text))
 porter_stemmer = PorterStemmer()
 
 nltk_tokens = nltk.word_tokenize(text)
+
+wordnet_lemmatizer = WordNetLemmatizer()
+nltk_tokens = nltk.word_tokenize(text)
+
+text = nltk.word_tokenize(text)
+sid = SentimentIntensityAnalyzer()
