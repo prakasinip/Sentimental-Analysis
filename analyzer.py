@@ -40,7 +40,3 @@ nltk_tokens = nltk.word_tokenize(text)
 
 wordnet_lemmatizer = WordNetLemmatizer()
 nltk_tokens = nltk.word_tokenize(text)
-
-text = nltk.word_tokenize(text)
-sid = SentimentIntensityAnalyzer()
-tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
